@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecole de musique Notre-Dame du Mont Carmel des Cayes-Jacmel</title>
+    <style>
+.marquee {
+        overflow: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        font-weight: bold;
+        font-size: 1.2em;
+        color: #4a78b3; /* koulè fraz ou vle kenbe */
+        text-shadow: 0 0 5px #fff, 0 0 10px rgb(102, 117, 180), 0 0 15px rgb(135, 159, 194), 0 0 20px #ffa500, 0 0 30px #ffa500;
+        display: inline-block;
+        padding-left: 100%;
+        animation: marquee 15s linear infinite;
+    }
+
+    @keyframes marquee {
+        0%   { transform: translateX(0%); }
+        100% { transform: translateX(-100%); }
+    }
+
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: radial-gradient(circle, #009991, #f3cdd2);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(to bottom, #db86c2, #009991);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: linear-gradient(to bottom, #db86c2, #009991);
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section { padding: 20px; }
+        footer {
+            background: #db86c2;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        form input, form select, form textarea {
+            display: block;
+            margin: 10px 0;
+            padding: 8px;
+            width: 100%;
+            max-width: 400px;
+        }
+        .button {
+            background: #005599;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .logo {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            vertical-align: middle;
+        }
+        html { scroll-behavior: smooth; }
+        .image {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .image figure {
+            width: 10%;
+            text-align: center;
+            min-width: 120px;
+        }
+        .image img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        .image figcaption {
+            margin-top: 8px;
+            font-size: 14px;
+            color: #444;
+            font-style: italic;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        table, th, td { border: 1px solid black; }
+        th, td { padding: 8px; text-align: center; }
+        video { display: block; margin: 20px auto; }
+
+        /* Section Événements */
+#evenements {
+  padding: 50px;
+  background-color: #1a1a1a; /* Kenbe koulè ou */
+  color: #ffcc00;            /* Kenbe koulè tèks ou */
+}
+
+#evenements h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.evenement-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.evenement {
+  background-color: #569996;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+/* Section Photos de promotion */
+#photos {
+  padding: 50px;
+  background-color: #569996;
+  color: #ffcc00;
+}
+
+#photos h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.photo-gallery img {
+  width: 250px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.photo-gallery img:hover {
+  transform: scale(1.05); /* Efè hover sou foto yo */
+}
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>
+        <img src="logo Ecole de musique.jpg" class="logo" alt="Logo Ecole de musique">
+        Ecole de musique Notre-Dame du Mont Carmel des Cayes-Jacmel
+        <img src="logo Ecole de musique.jpg" class="logo" alt="Logo Ecole de musique">
+    </h1>
+    <h3>Bienvenue sur notre page web</h3>
+</header>
+
+<nav>
+    <a href="#historique">Historique</a>
+    <a href="#contact">Contact</a>
+    <a href="#inscription">Formulaire d'inscription</a>
+    <a href="#instruments">Instruments</a>
+    <a href="#evennement">Évènement</a>
+    <a href="#activites">Activités</a>
+    <a href="#photos">Photos Promotion</a>
+</nav>
+<section id="section2">
+      
+      <div class="marquee">
+          L'École de musique Notre-Dame du Mont Carmel a été fondée pour offrir une formation de qualité dans le domaine musical et diminuer la délinquance dans la commune.
+      </div>
+    </section>
+<section id="historique">
+    <p>L'Ecole de musique Notre-Dame du Mont Carmel a été fondée pour offrir une formation de qualité dans le domaine musical et diminuer la délinquance dans la commune.</p>
+    <h2>Historique</h2>
+    <p>L’École de Musique Notre-Dame du Mont Carmel, située à Cayes-Jacmel, a été fondée en 2006 par le Révérend Père Serge Pardo. Elle est née d’une volonté forte de lutter contre la délinquance locale en offrant aux jeunes un espace d’apprentissage musical et de discipline.</p>
+</section>
+
+<section id="instruments">
+    <h3>Différents types d'instruments</h3>
+    <table>
+        <tr>
+            <th>Numéro</th>
+            <th>Nom de l'instrument</th>
+            <th>Catégorie</th>
+            <th>Age</th>
+            <th>Durée</th>
+            <th>Image</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Clarinette</td>
+            <td>À vent</td>
+            <td>10-14 ans</td>
+            <td>2 ans</td>
+            <td><img src="clarinette.jpg" alt="Clarinette" width="80"></td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Flûte</td>
+            <td>À vent</td>
+            <td>15-20 ans</td>
+            <td>1 an</td>
+            <td><img src="flute.jpg" alt="Flûte" width="80"></td>
+        </tr>
+        </tr> 
+<tr><td>003</td>
+<td>Saxophone alto</td>
+<td>à vent</td>
+<td>15-25ans</td>
+<td>06mois</td>
+<td><img src="Saxophone alto.jpg" alt="Saxophone" width="75"></td>
+
+    </tr>
+<tr>
+<td>004</td>
+<td>Guitare</td>
+<td>à corde</td>
+<td>7 à x</td>
+<td>6mois</td>
+<td><img src="Guitare.jpg" alt="Guitare" width="80"></td>
+
+    </tr>
+
+     </tr>
+<tr><td>005</td>
+<td>Keyboard</td>
+<td>instrument à clavier</td>
+<td>9 à x</td>
+<td>6mois</td>
+<td><img src="Keyboard.jpg" alt="Piano" width="80"></td>
+
+    </tr>
+<tr><td>006</td>
+<td>percussions</td>
+<td>à percussions</td>
+<td>6 à x</td>
+<td>6mois</td>
+<td><img src="A Percussions.jpg" alt="batterie" width="80">
+    </table>
+</section>
+
+<section>
+    <h2>Vidéos</h2>
+    <video width="400" height="300" controls>
+        <source src="20230811_063011.mp4" type="video/mp4">
+    </video>
+    <video width="400" height="300" controls>
+        <source src="20240529_094159 - Copie.mp4" type="video/mp4">
+    </video>
+</section>
+
+<section id="inscription">
+    <h2>Formulaire d'inscription</h2>
+    <form action="#" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required>
+        <label for="email">E-mail :</label>
+        <input type="email" id="email" name="email" required>
+        <label for="age">Âge :</label>
+        <input type="number" id="age" name="age" required>
+        <label for="instrument">Type d'instrument :</label>
+        <select id="instrument" name="instrument">
+            <option value="Clarinette">Clarinette</option>
+            <option value="Percussions">Percussions</option>
+            <option value="Saxophone alto">Saxophone alto</option>
+            <option value="Guitare">Guitare</option>
+            <option value="Flute">Flûte</option>
+            <option value="Keyboard">Keyboard</option>
+        </select>
+        <label for="message">Commentaire :</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+        <button class="button" type="submit">Envoyer</button>
+    </form>
+</section>
+
+<!-- Section Événements -->
+<section id="evennement">
+  <h2>Événements</h2>
+  <div class="evenement-list">
+    <div class="evenement">
+      <h3>Concert de printemps</h3>
+      <p>Date : 15 Avril 2025</p>
+      <p>Lieu : Salle des fêtes</p>
+    </div>
+    <div class="evenement">
+      <h3>Atelier de musique</h3>
+      <p>Date : 22 Mai 2025</p>
+      <p>Lieu : École Notre-Dame</p>
+    </div>
+    <!-- Ajoute plis evenements isit la -->
+  </div>
+
+</section>
+<!-- Section Photos de promotion -->
+<section id="photos">
+  <h2>Photos de promotion</h2>
+  <div class="photo-gallery">
+    <img src="1ere promotion 2.jpg" alt="Promotion 1" width="250" height="250">
+    <img src="2eme promotion.jpg" alt="Promotion 2" width="250" height="250">
+    <img src="3eme promotion.jpg" alt="Promotion 3" width="250" height="250">
+    <!-- Ajoute plis foto isit la -->
+  </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Adresse : Rue Mejie Jeune, Cyes-Jacmel, Haïti</p>
+    <p>Email : contact@notredamedumontcarmel.ht</p>
+</section>
+
+<footer>
+    <p>© 2025 Ecole de musique Notre-Dame - C'est votre avenir, venez nous visiter chaque jour !</p>
+</footer>
+
+</body>
+</html>
